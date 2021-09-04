@@ -1,0 +1,457 @@
+
+/***************Main****************/
+
+.main-color{
+    color: #f25454 !important;
+}
+.main-background-color{
+    background-color: #f25454;
+}
+h1,h2,h4,h5,h6{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+/**********Home************/
+
+#home .nav-link{
+    font-weight: 700;
+    color: #282828;
+    font-size: 17px;
+
+}
+#home .nav-link:hover{
+    color:#f25454 ;
+}
+#home .icon-t:hover{
+    color:#f25454 ;
+}
+#home .icon-f:hover{
+    color:#f25454 ;
+}
+#home .icon-i:hover{
+    color:#f25454 ;
+}
+
+
+ #home .slide1{
+    background-image: url(../images/slideshow-1.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    background-size: cover;
+    
+}
+  
+ #home .slide2{
+    background-image: url(../images/slideshow-2.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    
+}
+ 
+#home .slide3{
+    background-image: url(../images/slideshow-3.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    
+}
+#home h1{
+    color: white;
+}
+
+#home .carousel-control-prev-icon{
+    border: 1px solid white;
+    padding: 10px;
+    font-size: 50px ;
+    position: absolute;
+    left: 0;
+   
+}
+
+#home .carousel-control-prev-icon:hover{
+    background-color: white;
+    color: #f25454 ;
+}
+#home .carousel-control-next-icon{
+    border: 1px solid white;
+    padding: 10px;
+    position: absolute;
+    right: 1317px;
+    bottom:42.6%;
+}
+#home .carousel-control-next-icon:hover{
+    background-color: white;
+    color: #f25454 ;
+}
+#home .setting-icon {
+    top: 20%;
+    background-color: #2b2424;
+    
+    padding: 8px;
+    cursor: pointer;
+}
+
+#home .setting-icon i {
+    font-size: 18px;
+}
+#home .down-icon {
+    width: 25px;
+    height: 45px;
+    border: 2px solid white;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 50px;
+    border-radius: 15px;
+    
+}
+
+#home .down-icon::after {
+    content: "";
+    width: 3px;
+    height: 10px;
+    background-color: white;
+    position: absolute;
+    left: 9px;
+    bottom: 10px;
+    transform: translateX(-50%);
+    animation: scroll 3s ease-in-out infinite;
+
+}
+@keyframes scroll {
+
+    0% {
+        top: 10px;
+        opacity: 1;
+    }
+
+    10% {
+        top:13px;
+        opacity: 0.8;
+    }
+
+    20% {
+        top: 15px;
+        opacity: 0.5;
+    }
+
+    30% {
+        top:17px;
+        opacity: 0.3;
+    }
+    100%{
+        top: 19px;
+        opacity: 0;
+    }
+
+    
+}
+/******************About************************/
+
+#about span{
+    font-size: 100px;
+    font-weight: 700;
+    opacity: 0.1;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#about h2{
+    font-size: 38px;
+    font-weight: 900;
+    padding-top:50px;
+    position: relative;
+    padding-bottom: 15px;
+}
+#about .line {
+    width: 3%;
+    height: 1px;
+    transition: .3s;
+    background-color: black;
+}
+#about .section-head:hover .line  {
+    width: 5%;
+}
+
+#about .section-subtitle{
+    font-size: 18px;
+    color: #999;
+    font-weight: 500;
+}
+#about .about-content{
+    padding-right: 20px;
+}
+/*************Team******************/
+#team span{
+    font-size: 100px;
+    font-weight: 700;
+    opacity: 0.1;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#team h2{
+    font-size: 38px;
+    font-weight: 900;
+    padding-top:60px;
+    position: relative;
+    padding-bottom: 15px;
+}
+#team .line {
+    width: 3%;
+    height: 1px;
+    transition: .3s;
+    background-color: black;
+}
+#team .section-head:hover .line  {
+    width: 5%;
+}
+#team .section-subtitle{
+    font-size: 18px;
+    color: #999;
+    font-weight: 500;
+}
+#team .section-img{
+    padding-bottom: 10px;
+    position: relative;
+    border: 1px solid transparent;
+}
+
+#team .section-img:hover {
+    
+    transform: scale(1.1, 1.1);
+}
+#team h5:hover{
+color: #f25454 ;
+}
+#team .question{
+   padding: 30px 0px;
+}
+#team .btn{
+    border: 1px solid #f25454;
+    background-color: #f25454;
+    margin: 5px;
+    font-size: 15px;
+}
+#team h3{
+    font-size: 30px;
+    font-weight: 400;
+}
+/*******************Services**********************/
+#Services span{
+    font-size: 100px;
+    font-weight: 700;
+    opacity: 0.1;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#Services h2{
+    font-size: 38px;
+    font-weight: 900;
+    padding-top:60px;
+    position: relative;
+    padding-bottom: 15px;
+}
+#Services .line {
+    width: 3%;
+    height: 1px;
+    transition: .3s;
+    background-color: black;
+}
+#Services .section-head:hover .line  {
+    width: 5%;
+}
+#Services .section-subtitle{
+    font-size: 18px;
+    color: #999;
+    font-weight: 500;
+}
+#Services .icon{
+    color: #f25454;
+    font-size: 30px;
+}
+#Services h3{
+    font-size: 20px;
+}
+#Services h3:hover{
+    color: #f25454;
+}
+#Services p{
+font-size: 15px;
+}
+
+/****************client*********************/
+#client span{
+    font-size: 100px;
+    font-weight: 700;
+    opacity: 0.1;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#client h2{
+    font-size: 38px;
+    font-weight: 900;
+    padding-top:70px;
+    position: relative;
+    padding-bottom: 15px;
+}
+#client .line {
+    width: 3%;
+    height: 1px;
+    transition: .3s;
+    background-color: black;
+}
+#client .section-head:hover .line  {
+    width: 5%;
+}
+#client .section-subtitle{
+    font-size: 18px;
+    color: #999;
+    font-weight: 500;
+}
+#client .slide-img{
+    width: 50% ; 
+
+}
+
+.carousel-dark .carousel-indicators button {
+    background-color:#f25454  !important;
+    width: 12px;
+    opacity: .5;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    height: 6px;
+}
+
+.carousel-dark .carousel-indicators button.active {
+    width: 20px;
+    opacity: 1;
+}
+
+/*****************get**********************/
+#get span{
+    font-size: 100px;
+    font-weight: 700;
+    opacity: 0.1;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#get h2{
+    font-size: 38px;
+    font-weight: 900;
+    padding-top:70px;
+    position: relative;
+    padding-bottom: 15px;
+}
+#get .line {
+    width: 3%;
+    height: 1px;
+    transition: .3s;
+    background-color: black;
+}
+#get .section-head:hover .line  {
+    width: 5%;
+}
+#get .section-subtitle{
+    font-size: 18px;
+    color: #999;
+    font-weight: 500;
+}
+#get h3{
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+#get .ico{
+    color: #f25454;
+    font-size: 30px;
+}
+#get h4{
+    font-size: 20px;
+}
+#get h4:hover{
+    color: #f25454;
+}
+#get p{
+font-size: 15px;
+}
+#get .line1{
+    width: 500px;
+height: 1px;
+background-color: #999;
+opacity: 0.5;
+margin: 5px 0px;
+}
+#get .form{
+    margin-left: 20px;
+}
+
+#get .form-control{
+background-color: transparent;
+padding: 10px;
+}
+#get .btn{
+    color: white;
+    
+}
+
+
+/*********************footer************************/
+.footer{
+
+background-image: url(../images/WhatsApp\ Image\ 2021-08-14\ at\ 6.57.51\ PM.jpeg);
+background-position: center;
+background-size: cover;
+}
+ 
+ .image{
+    margin-left: 40%;
+    
+}
+.contact-info h3{
+    color: white;
+    padding-bottom: 20px;
+}
+.contact-info p{
+    color: #999;
+   
+    font-size: 15px;
+}
+.contact-info .special:hover{
+cursor: pointer;
+color: #f25454;
+}
+ .btn-outline-primary{
+color: #999;
+}
+.btn{
+    border-color: #999;
+}
+.btn:hover{
+    border-color: #f25454;
+}
+.btn-outline-primary:hover{
+    color: #f25454;
+    background-color: transparent;
+}
+/********************bottom**********************/
+.bottom{
+    background-color: #2b2424;
+}
+.bottom-icons{
+    color: white;
+    font-size: 20px;
+}
+.bottom-icons:hover{
+    color: #f25454;
+}
+.botom-content p{
+    color: white;
+    font-size: 15px;
+}
